@@ -2,6 +2,8 @@
 
 LetsMakeAlbums is a native macOS SwiftUI app that scans the local Photos library and suggests albums from unorganized image assets. It uses PhotoKit metadata, timestamps, and location heuristics. It does not use external AI models.
 
+![LetsMakeAlbums suggested albums timeline](docs/lets-make-albums-screenshot.png)
+
 ## What It Does
 
 - Requests Photos read/write access.
@@ -103,4 +105,3 @@ The `.prompts` folder contains reference guides for the major product decisions:
 - Async geocoding and smart naming
 
 Those files are local developer context and intentionally ignored by git.
-
