@@ -1,0 +1,26 @@
+build/
+*.xcresult
+*.xcuserstate
+*.xcuserdata/
+xcuserdata/
+.DS_Store
+
+# Developer tooling — local only
+.claude/
+.codex/
+.prompts/
+AGENT.MD
+CLAUDE.md
+
+# Local secrets and signing artifacts
+.env
+.env.*
+*.pem
+*.key
+*.p8
+*.p12
+*.cer
+*.crt
+*.mobileprovision
+*.provisionprofile
+*.xcconfig.local
